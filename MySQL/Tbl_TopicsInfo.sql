@@ -1,0 +1,8 @@
+CREATE TABLE Tbl_TopicsInfo (
+    IdTopic INT NOT NULL AUTO_INCREMENT,
+    TopicName VARCHAR(20) NOT NULL,
+    Topic VARCHAR(200),
+    IsActive TINYINT(1) NOT NULL,
+    Descripcion VARCHAR(60),
+    CONSTRAINT PK PRIMARY KEY (IdTopic)
+);
